@@ -1,0 +1,49 @@
+{
+  "name": "node_auth",
+  "version": "1.0.0",
+  "description": "Auth implementation using nodejs and passportjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakkadarivel/node_auth.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "passport",
+    "authentication",
+    "facebook",
+    "google",
+    "twitter",
+    "linkedin",
+    "login",
+    "signup"
+  ],
+  "author": "Deepak Kadarivel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepakkadarivel/node_auth/issues"
+  },
+  "homepage": "https://github.com/deepakkadarivel/node_auth#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pg-promise": "^6.3.8"
+  }
+}
